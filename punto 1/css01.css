@@ -1,0 +1,16 @@
+b{
+    color:red;
+    }
+    .prueba{
+    text-decoration:underline overline;
+    }
+    #prueba2{
+    font-size:30pt;
+    font-weight:bold;
+    }
+    a:hover{font-weight:bold;}
+    a:link{color:green;}
+    b:visited{color:red;}
+    h2{color:blue;font-weight:bold;}
+    h3 b{text-decoration:underline;}
+    
