@@ -1,0 +1,40 @@
+#Texto1{
+    width: 80%;
+    float: left;
+    font-family: Verdana;
+    font-size: 150%;
+    text-align: justify;
+}
+#p_texto1{
+    Float: center;
+    font-family: Verdana;
+    font-size: 100%;
+    text-align: center;
+}
+#imagen1{
+    float: left;
+    position: unset;
+}
+.imagenes{
+    width: 180px;
+    height: 200px;
+}
+.imagenes1{
+    width: 120px;
+}
+#texto2{
+    width: 80%;
+    float: right;
+    font-family: Verdana;
+    font-size: 150%;
+    text-align: justify;
+}
+#p_texto2{
+    Float: center;
+    font-family: Verdana;
+    font-size: 110%;
+    text-align: center;
+}
+#imagen2{
+    float: left;
+}

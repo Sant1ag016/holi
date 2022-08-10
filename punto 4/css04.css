@@ -1,0 +1,23 @@
+table,td{
+    border: 1px dotted;
+    border-radius:  ridge; 
+    border-spacing: 0ch;
+    background-color: yellow; 
+}
+.fila_head{
+    padding: 0ch;
+    border-spacing: 0ch;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.fila{
+    text-align: left;
+    padding: 0;
+    border-spacing: 0ch;
+}
+.texto{
+    
+    border-block-end-color: red;
+    border-block-end: dashed red;
+}
