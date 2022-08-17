@@ -1,0 +1,37 @@
+.parrafo{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    
+}
+#acceso{
+
+}
+#recuadro{
+    background-image: url("img/holi.jpg");
+    width: 700px;
+    height: 450px;
+    border-radius: 15px;
+    font-size: 30px;
+    opacity: 0.5;
+    
+}
+#recuadro1{
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro1 :hover{
+    width: 300px;
+}
+#recuadro2{
+    border-radius: 20px;
+    background-color: #ff0;
+    width: 200px;
+    padding: 200px;
+    transition: width 1s;
+    -webkit-transition: widht 1s;
+}
+#recuadro2:hover{
+    width: 300px;
+}
