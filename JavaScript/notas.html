@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1, n2, n3;
+        n1=prompt("Ingrese nota 1");
+        n2=prompt("Ingrese nota 2");
+        n3=prompt("Ingrese nota 3");
+        let promedio=(parseFloat(n1)+parseFloat(n2)+parseFloat(n3))/3;
+        document.write("El promedio es:");
+        document.write(promedio);
+        if(promedio<3){
+            document.write('<br>')
+            document.write("perdio");
+            document.write('<br>')
+        }else if(promedio>=3 && promedio<4){
+            document.write('<br>')
+            document.write("paso raspando");
+            document.write('<br>')
+        }else if(promedio>=4 && promedio<5){
+            document.write("Excel en TE");
+
+        }
+</script>
+    
+</body>
+</html>
