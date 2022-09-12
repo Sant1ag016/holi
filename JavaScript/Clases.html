@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases</title>
+</head>
+<body>
+        <a href="#" onMouseOver="pintar('#f00')" on MouseOut="pintar('#000')">Rojo</a>-
+        <a href="#" onMouseOver="pintar('#0f0')" on MouseOut="pintar('#000')">Verde</a>-
+        <a href="#" onMouseOver="pintar('#00f')" on MouseOut="pintar('#000')">Azul</a>
+        <div id="cuadrado" style="background: #000; width: 200px; height: 200px;"></div>
+    <script>
+        function pintar(color){
+            document.getElementById('cuadrado').style.backgroundColor=color;
+        }
+        
+/*
+        function montar(){
+
+            let fecha;
+            fecha=new Date();
+            document.write("Hoy es ");
+            document.write(fecha.getDate()+"/");
+            document.write((fecha.getMonth()+1)+"/");
+            document.write(fecha.getFullYear());
+            document.write("<br>");
+            document.write("La hora es: ");
+            document.write(fecha.getHours()+"/");
+            document.write((fecha.getMinutes()+1)+"/");
+            document.write(fecha.getSeconds()+"/");
+            document.write(fecha.getMilliseconds());
+        }
+        
+        let total=0;
+        function cargar(sueldos){
+
+            for(let i=0; i<sueldos.length; i++){
+                let v=prompt("Ingrese sueldo: ");
+                sueldos[i]=parseInt(v);
+            }
+        }
+        function suma(sueldos){
+            
+            for(let i=0; i<sueldos.length; i++){
+                document.write(sueldos[i]+"<br>");
+                total+=sueldos[i];
+            }            
+        }
+            let sueldos=new Array(4);
+            sueldos=new Array(4);
+            cargar(sueldos);
+            suma(sueldos);
+            document.write("El total de los sueldos es: "+total+"<br>");
+
+        montar();
+        let cargar=parseInt(prompt("Ingrese un numero entre 0 y 9"));
+        let numero=parseInt(Math.random()*10);
+        if(numero==cargar){
+            document.write("Gano la loteria! ")
+        }else{
+            document.write("Lo siento, sigue intentado...!")
+        }
+*/
+        
+    </script>
+</body>
+</html>
